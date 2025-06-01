@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+    .box {
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: lightblue;
+    }
+
+    @media (min-width: 768px) {
+      .box {
+        background-color: lightcoral;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .box {
+        background-color: lightgreen;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">Resize the screen to see responsive colors!</div>
+</body>
+</html>
